@@ -27,7 +27,7 @@ nav li {
 nav a {
   margin-right: 1rem;
   color: #b00;
-  font: bold 1.25rem Helvetica, system-ui, Arial, sans-serif;
+  font: bold 1.25rem Poppins, Helvetica, system-ui, Arial, sans-serif;
   text-transform: lowercase;
   text-decoration: none;
 }
@@ -39,7 +39,7 @@ nav a:hover {
 
 h1, h2, h3 {
   color: #333;
-  font-family: Helvetica, system-ui, Arial, sans-serif;
+  font-family: Poppins, Helvetica, system-ui, Arial, sans-serif;
 }
 
 h1 {
