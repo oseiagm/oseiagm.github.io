@@ -1,7 +1,58 @@
+:root {
+    --text: #222222;
+    --accent: #cf222e;;
+    --muted: #6c757d;
+    --bg: #ffffff;
+    --font: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+    --link: #0969DA;
+}
+
+html, body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-weight: 300;
+    font-size: 12pt;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.menulink {
+    color: var(--text);
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.menulink:hover {
+    color: var(--text);
+}
+
+.header {
+    color: var(--muted);
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.name {
+    color: #111;
+    font-size: 23pt;
+}
+
+.papertitle {
+    color: var(--text);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+}
+
 a:hover {
     font-weight: 400;
     text-decoration: none;
-    transition-timing-function: linear;
+    color: var(--accent);
 }
 
 .noter {

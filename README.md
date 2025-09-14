@@ -24,7 +24,7 @@ To get started with your version of this website, follow these steps:
 
 4. **Edit Content**
    - Open `index.html` in your favorite text editor and modify the content to your liking.
-   - Update styles in the `assets/styles.css` and `assets/script.js` files if you wish to change the appearance.
+   - Update styles in `assets/style.css` to change the appearance. The Barlow font is loaded via a `<link>` tag in the `<head>` of `index.html`; adjust or remove as desired.
    - Replace the existing images in the `assets` folder with your own.
 
 5. **Preview Locally**
